@@ -12,6 +12,10 @@ h1, a {
     color: red;
 }
 
+a:hover{
+    color: rgb(10, 10, 10);
+}
+
 h2 {
     color: green;
 }
@@ -27,4 +31,13 @@ img {
 .bigtext {
     font-size: 26px;
     font-family: 'Teddy Bear', sans-serif;
+}
+
+ul{
+    list-style-type: square;
+} 
+
+body{
+    display: flex;
+    justify-content: center;
 }
